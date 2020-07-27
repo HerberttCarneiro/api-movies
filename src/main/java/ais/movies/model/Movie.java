@@ -35,7 +35,7 @@ public class Movie {
     private Set<Genre> genres;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "movie", cascade = CascadeType.REMOVE, orphanRemoval = true)
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private Set<Rating> ratings;
 
     @Transient

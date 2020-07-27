@@ -23,7 +23,6 @@ public class MovieUpdateRequestDTO {
     @NotEmpty
     private String title;
 
-    @NotEmpty
     private Date releaseData;
 
     @NotEmpty
