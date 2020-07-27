@@ -4,7 +4,7 @@ Esse projeto foi criado utilizando a documentação do site [https://www.eclipse
 
 O servidor utilizado nesse projeto foi WildFly seguindo o tutorial [Deploying and Debugging Your Jakarta EE Application With WildFly and IntelliJ](https://www.youtube.com/watch?v=l4uAJlvb9IY)
 
- #Configurando datasource no widfly
+ # Configurando datasource no widfly
  - Baixe o servidor widfly na versão **18.0.1.Final** no site https://wildfly.org/downloads/.
  - Instalação e Configuração do Driver JDBC
  
@@ -59,4 +59,6 @@ O servidor utilizado nesse projeto foi WildFly seguindo o tutorial [Deploying an
     </driver>
    ```
    
-   #
+   # Configurar Lombok
+   
+   Para configurar o lombok no seu ambiente utilize esse documento [Using Lombok](https://projectlombok.org/setup/overview)
