@@ -59,6 +59,24 @@ Logo abaixo do datasource existe a tag “drivers” onde precisamos adicionar a
 
 Para configurar o lombok no seu ambiente utilize esse documento [Using Lombok](https://projectlombok.org/setup/overview)
 
+# Banco de dados
+
+Banco utilizado na api é o Mysql
+
+Antes de executar a aplicação certifique-se de criar um schema com nome **movies**.
+
+Configurações
+```
+'innodb_version', '5.7.30'
+'protocol_version', '10'
+'slave_type_conversions', ''
+'tls_version', 'TLSv1,TLSv1.1,TLSv1.2'
+'version', '5.7.30'
+'version_comment', 'MySQL Community Server (GPL)'
+'version_compile_machine', 'x86_64'
+'version_compile_os', 'Linux'
+```
+
 # Persistence.xml
 
 As configurações estão feitas para apagar e criar o banco de dados todas vez que aplicação subir
