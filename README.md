@@ -82,3 +82,9 @@ Configurações
 # Persistence.xml
 
 As configurações estão feitas para apagar e criar o banco de dados todas vez que aplicação subir
+
+# Postman
+
+Rotas de exemplo da utilização da api
+
+https://www.getpostman.com/collections/966e55de0a4b4fbe4a53
