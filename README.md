@@ -1,4 +1,6 @@
-# Api de filmes
+# Descrição do projeto
+Queremos desenvolver uma pequena api de filmes com opção de criar filmes com diferentes gêneros e avaliá-los com uma nota de 0 a 10.
+
 Esse projeto foi criado utilizando a documentação do site [https://www.eclipse.org/](https://www.eclipse.org/community/eclipse_newsletter/2020/february/4.php.)
 
 O servidor utilizado nesse projeto foi WildFly seguindo o tutorial [Deploying and Debugging Your Jakarta EE Application With WildFly and IntelliJ](https://www.youtube.com/watch?v=l4uAJlvb9IY)
